@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Js Questions</title>
+</head>
+<body>
+    <script>
+        
+//Example 1
+const a = new Date();
+console.log(a);
+
+//Example 2 (Year Month Day Hour)
+const b = new Date(2025,1,14,);
+console.log(b);
+
+//Example 3 (Year)
+const c = new Date("2025");
+console.log(c);
+
+//example 4 (short Date)
+const d = new Date("02/14/2025");
+console.log(d);
+
+//Example 5 (Long Date)
+const e = new Date("Feb 14 2025");
+console.log(e); 
+
+//Example 6 (Long Date)
+const f = new Date("Feb-14-2025");
+console.log(e); 
+
+//Example 7 (Date into milliseconds)
+const g = Date.parse("Feb 14 2025");
+console.log(g);
+
+//Example 8 (milliseconds into Date)
+const h = new Date(1739471400000);
+console.log(h);
+
+
+                                             // Date Get Methods
+
+//Example 9 (Get Year)
+const i = new Date("feb 14 2025");
+console.log(i.getFullYear());
+
+//Example 10 (Get Month)
+const j = new Date("feb 14 2025");
+console.log(j.getMonth());
+
+//Example 11 (Get Month)
+const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const k = new Date();
+console.log(months[k.getMonth()]);
+
+//Example 12 (Get Day)
+const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const l = new Date();
+console.log(days[l.getDay()]);
+
+//Example 13 (Get date)
+const m = new Date();
+//m.getDate();
+console.log(m.getDate());
+
+//Example 14 (Get Hours)
+const n = new Date();
+//n.getHours();
+console.log(n.getHours());
+
+//Example 15 (Get Minutes)
+const o = new Date();
+//o.getMinutes();
+console.log(o.getMinutes());
+
+//Example 16 (Get Seconds)
+const p = new Date();
+//p.getSeconds();
+console.log(p.getSeconds());
+
+//Example 17 (Get Milliseconds)
+const q = new Date();
+//q.getMilliseconds();
+console.log(q.getMilliseconds());
+
+                               //date set methods
+
+//Example 18 (Set Year)
+const r = new Date();
+r.setFullYear(2026);
+console.log(r);
+
+//Example 19 (Set Month)
+const s = new Date();
+s.setMonth(4);
+console.log(s);
+
+//Example 20 (Set Date)
+const t = new Date();
+t.setDate(18);
+console.log(t);
+
+//Example 21 (Set Hours)
+const u = new Date();
+u.setHours(12);
+console.log(u);
+
+//Example 22 (Set Minutes)
+const v = new Date();
+v.setMinutes(30);
+console.log(v);
+
+//Example 23 (Set Seconds)
+const w = new Date();
+w.setSeconds(45);
+console.log(w);
+
+//Example 24 (Set Milliseconds)
+const x = new Date();
+x.setMilliseconds(500);
+console.log(x);
+
+
+   </script>
+</body>
+</html>
